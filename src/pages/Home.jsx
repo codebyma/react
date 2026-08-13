@@ -25,7 +25,7 @@ const Home = () => {
                     id: "1-3",
                     type: "reference",
                     text: "관련 조항 3항",
-                    source: "사규 12조",
+                    source: "사규 12조111",
                 },
                 {
                     id: "1-4",
