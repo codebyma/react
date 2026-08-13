@@ -1,0 +1,43 @@
+/* 그룹 컨테이너 */
+.btn_group {
+    display: flex;
+}
+
+/* fixed 위치 */
+.fixed {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+}
+
+/* Button compontent의 스타일 변경 */
+.btn_group.fixed button[data-ui="button"] {
+    flex: 1;
+}
+
+/* size 옵션 */
+.sm {
+    font-size: 12px;
+}
+
+.md {
+    font-size: 14px;
+}
+
+.lg {
+    font-size: 16px;
+}
+
+/* align 옵션 */
+.left {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
+}

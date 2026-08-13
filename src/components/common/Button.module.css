@@ -1,0 +1,115 @@
+.btn {
+    padding: var(--form-ele-padding-y) var(--form-ele-padding-x);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: var(--form-ele-font);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* variant */
+.btn_primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn_secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.btn_danger {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.btn_light {
+    background-color: var(--gray200);
+    color: var(--gray900);
+}
+
+.btn_dark {
+    background-color: var(--gray900);
+    color: var(--white);
+}
+
+.btn_outline.btn_primary {
+    background-color: var(--white);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn_outline.btn_secondary {
+    background-color: var(--white);
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
+.btn_outline.btn_danger {
+    background-color: var(--white);
+    border-color: var(--danger);
+    color: var(--danger);
+}
+
+.btn_outline.btn_light {
+    background-color: var(--white);
+    border-color: var(--gray400);
+    color: var(--gray600);
+}
+
+.btn_outline.btn_dark {
+    background-color: var(--white);
+    border-color: var(--gray900);
+    color: var(--gray900);
+}
+
+/* size */
+.btn_sm {
+    padding: var(--form-ele-padding-sm-y) var(--form-ele-padding-sm-x);
+    font-size: var(--form-ele-font-sm);
+}
+
+
+.btn_lg {
+    padding: var(--form-ele-padding-lg-y) var(--form-ele-padding-lg-x);
+    font-size: var(--form-ele-font-lg);
+}
+
+.btn_with_icon_row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.btn_with_icon_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.is_disabled {
+    opacity: 0.7;
+}
+
+.btn_round {
+    border-radius: 50px;
+}
+
+.btn_round.btn_sm {
+    padding: var(--form-ele-padding-sm-y) calc(var(--form-ele-padding-sm-x) * 1.5);
+}
+
+.btn_full {
+    width: 100%;
+}
+
+.btn_-with-icon .btn__icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.toolbar .button {
+    padding: 12px 16px;
+}
