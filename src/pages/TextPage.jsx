@@ -1,13 +1,5 @@
-import { useEffect } from 'react';
 import Text from '../components/common/Text';
 const AccodianPage = () => {
-
-    // const buttonRef = useRef(null)
-
-    useEffect(() => {
-        // console.log(buttonRef)
-        // console.log(buttonRef.current.focus())
-    }, []); // 마운트 시 한 번만 실행되는 예제
     return (
         <>
             <div className="sections guide">

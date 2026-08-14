@@ -18,3 +18,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # 연결된 remote 주소 확인
 git remote -v
+
+# push
+git add .
+git commit -m "커밋 메시지"
+git push
