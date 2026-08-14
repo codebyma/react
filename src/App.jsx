@@ -8,6 +8,7 @@ import User from "./pages/User";
 import List from "./pages/List/List";
 import Stock from "./pages/Stock/Stock";
 import AccordionPage from "./pages/AccordionPage";
+import TextPage from "./pages/TextPage";
 import IsaAccount from "./pages/Stock/IsaAccount";
 import AccountStocks from "./pages/Stock/AccountStocks";
 import ButtonGuide from "./pages/ButtonGuide";
@@ -36,6 +37,7 @@ const router = createBrowserRouter(
           ],
         },
         { path: "page/ButtonGuide", element: <ButtonGuide /> },
+        { path: "page/TextPage", element: <TextPage /> },
         { path: "page/AccordionPage", element: <AccordionPage /> },
         { path: "page/Test", element: <Test /> },
       ],
